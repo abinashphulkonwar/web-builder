@@ -56,6 +56,7 @@ const editor = grapesjs.init({
         attributes: { class: "gjs-block-text" },
         content: `<p>This is a simple title</p>`,
       },
+
       {
         id: "box",
         label: "<b>Box</b>",
