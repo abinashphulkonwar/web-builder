@@ -29,6 +29,49 @@
   justify-content: center;
   justify-content: space-between;
 }
+
+.panel__left {
+  width: 80px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 50px;
+
+
+  &__btn__container {
+    padding: 0px 10px;
+
+    button {
+      margin: 5px 0px;
+      color: white;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+
+
+      &:hover {
+        filter: brightness(1.2);
+        transform: scale(1.2);
+      }
+
+      &:active {
+        opacity: 0.7;
+      }
+    }
+  }
+
+
+  .panel__left__element__container {
+    background-color: red;
+    transform: translateX(80px);
+    position: absolute;
+    top: 0;
+
+
+  }
+}
+
+
 .panel__basic-actions {
   position: initial;
 }

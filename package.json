@@ -1,0 +1,13 @@
+{
+  "name": "web-builder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/abinashphulkonwar/web-builder.git",
+  "author": "abinash <abinashphulkonwar1@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "interface",
+    "api"
+  ]
+}

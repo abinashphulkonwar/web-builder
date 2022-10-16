@@ -1,7 +1,9 @@
 import "grapesjs/dist/css/grapes.min.css";
-import "./style.css";
+import "./style.scss";
 import grapesjs from "grapesjs";
+import "./src/panel-left/panel-left";
 
+/*
 const editor = grapesjs.init({
   // Indicate where to init the editor. You can also pass an HTMLElement
   container: "#app",
@@ -247,7 +249,7 @@ editor.Panels.addPanel({
 
 editor.on("run:export-template:before", (opts) => {
   console.log("Before the command run");
-  if (0 /* some condition */) {
+  if (0) {
     opts.abort = 1;
   }
 });
@@ -313,3 +315,5 @@ editor.Commands.add("set-device-mobile", {
 editor.on("change:device", () =>
   console.log("Current device: ", editor.getDevice())
 );
+
+*/
