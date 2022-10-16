@@ -1,7 +1,7 @@
 import "grapesjs/dist/css/grapes.min.css";
 import "./style.scss";
-import grapesjs from "grapesjs";
 import "./src/panel-left/panel-left";
+import "./builder";
 
 /*
 const editor = grapesjs.init({

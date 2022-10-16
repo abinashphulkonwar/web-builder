@@ -17,28 +17,32 @@
     <div class="panel__switcher"></div>
 
   </div>
-  <div class="panel__left">
-    <div class="panel__left__btn__container">
-      <button id="btn-add">Add</button>
-      <button id="btn-cms">CSM</button>
-      <button>Data base</button>
-    </div>
-    <div id="panel__left__element__container" class="panel__left__element__container"></div>
+  <main>
 
-  </div>
-  <div id="blocks"></div>
-  <div class="editor-row">
-    <div class="editor-canvas">
-      <div id="app">
+    <div class="panel__left" data-component="panel-left">
+      <div class="panel__left__btn__container">
+        <button id="btn-add">Add</button>
+        <button id="btn-cms">CSM</button>
+        <button>Data base</button>
+      </div>
+      <div id="panel__left__element__container" class="panel__left__element__container">
+        <div id="panel__left__element__add__container" class="container">
+
+          <p>Add</p>
+          <div>
+            <p>components</p>
+            <div id="blocks"></div>
+          </div>
+
+        </div>
       </div>
     </div>
-    <div class="panel__right">
-      <div class="layers-container"></div>
-      <div class="styles-container"></div>
-      <div class="traits-container"></div>
-    </div>
 
-  </div>
+
+    <div id="app" class="app">
+    </div>
+  </main>
+
 
   <script type="module" src="/main.js"></script>
 </body>
